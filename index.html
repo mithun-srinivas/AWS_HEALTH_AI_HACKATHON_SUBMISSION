@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AWS Health AI Hackathon</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+  </head>
+  <body>
+    <section class="cntr_pg">
+      <img
+        class="logo"
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="Google logo"
+      />
+      <img
+        class="mic"
+        src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png"
+        alt=""
+      />
+      <form action="/submit" method="#" name="searchquery">
+        <input
+          type="text"
+          name="searchfield"
+          id="textName"
+          class="search_bar"
+        />
+        <div class="search_buttons">
+          <a
+            href=""
+            onclick="this.href='/submit?searchfield='+document.getElementById('textName').value"
+            class="submit_buttons"
+          >
+            Google Search
+          </a>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <ul class="l_ftr">
+        <li><a href="#">India</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <ul class="r_ftr">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
+<!-- https://www.google.com/search?q=lungcancersymptoms -->
